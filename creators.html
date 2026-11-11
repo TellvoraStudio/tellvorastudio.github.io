@@ -62,11 +62,12 @@
         <div>
           <h2>Apply to work with us</h2>
           <p class="form-note">This form sends your application to <a href="mailto:tellvorastudio@gmail.com">tellvorastudio@gmail.com</a>.</p>
-          <form action="https://formsubmit.co/tellvorastudio@gmail.com" method="POST">
-            <input type="hidden" name="_subject" value="Tellvora Studio — creator partnership application">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="https://tellvorastudio.github.io/thank-you.html">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="69ece2e4-66f4-426e-b335-29f7cfc67680">
+            <input type="hidden" name="from_name" value="Tellvora Studio website">
+            <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+            <input type="hidden" name="subject" value="Tellvora Studio — creator partnership application">
+            <input type="hidden" name="redirect" value="https://tellvorastudio.github.io/thank-you.html">
             <label>Name
               <input type="text" name="name" autocomplete="name" required>
             </label>
@@ -90,7 +91,7 @@
               </select>
             </label>
             <label>Subject or niche of the proposed product
-              <input type="text" name="subject">
+              <input type="text" name="niche">
             </label>
             <label>A short description of the material you already have
               <textarea name="material"></textarea>
