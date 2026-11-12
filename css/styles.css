@@ -813,6 +813,9 @@ textarea { min-height: 8rem; resize: vertical; }
   color: var(--muted);
   max-width: 36rem;
 }
+.hp-field {
+  display: none !important;
+}
 .placeholder-mark { font-family: var(--sans); color: var(--accent); font-weight: 700; }
 
 /* Policy / long text */
@@ -859,6 +862,7 @@ textarea { min-height: 8rem; resize: vertical; }
   margin-bottom: 2rem;
 }
 .site-footer .wordmark { color: #fff; }
+.footer-blurb { margin-top: 0.85rem; }
 .site-footer .wordmark span { color: rgba(255,255,255,0.5); }
 .site-footer a { color: rgba(255,255,255,0.82); text-decoration: none; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
